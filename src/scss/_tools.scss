@@ -1,0 +1,68 @@
+.tools {
+  padding: 96px 0 92px 0;
+  background-image: url('../images/tools-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #ffffff;
+    margin: 53px 0 0 0;
+    font-family: 'MontserratBold';
+  }
+
+  &__grid {
+    display: grid;
+    gap: 30px;
+
+    &_three {
+      margin: 84px 0 0 0;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    &_four {
+      margin: 42px 0 0 0;
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  &__item-description {
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #ffffff;
+    margin: 32px 0 0 0;
+  }
+
+  &__more {
+    border-top: 1px solid #828282;
+    margin: 20px 0 0 0;
+    padding: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__more-text {
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #bdbdbd;
+  }
+
+  &__more-button {
+    width: 262px;
+    height: 63px;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    margin: 30px auto 0 auto;
+    background: transparent;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+}

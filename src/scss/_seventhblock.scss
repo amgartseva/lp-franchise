@@ -1,0 +1,56 @@
+.seventhblock {
+  padding: 93px 0 100px 0;
+
+  &__wrapper {
+    padding: 156px 0 0 0;
+  }
+
+  &__inner {
+    padding: 0 0 0 96px;
+    background: #fcf4db url('../images/sales.png') bottom no-repeat;
+    background-size: 100%;
+
+    border-radius: 45px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 380px;
+  }
+
+  &__text {
+    padding-bottom: 54px;
+  }
+
+  &__title {
+    font-family: 'MontserratBold';
+    font-size: 36px;
+    line-height: 44px;
+    position: relative;
+    z-index: 3;
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 76px;
+      height: 76px;
+      border-radius: 76px;
+      left: -12px;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      background: $yellow;
+      z-index: -1;
+    }
+  }
+
+  &__paragraph {
+    font-size: 24px;
+    line-height: 29px;
+    margin: 24px 0 0 0;
+    max-width: 458px;
+  }
+
+  &__image {
+    border-radius: 0 0 45px 0;
+  }
+}

@@ -1,0 +1,47 @@
+.fourthblock {
+  padding: 130px 0;
+
+  &__pictureblock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__title {
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: uppercase;
+    font-family: 'MontserratBold';
+    color: #333333;
+
+    &_yellow {
+      color: $yellow;
+    }
+  }
+
+  &__picture {
+    width: 110%;
+    max-width: 662px;
+  }
+
+  &__textblock {
+    max-width: 460px;
+    margin: 0 0 0 120px;
+  }
+
+  &__paragraph {
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+
+    &_bold {
+      font-family: 'MontserratBold';
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.thirdblock {
+  padding: 117px 0 90px 0;
+  background-image: url('../images/thirdblock-bg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 124px 0 0 0;
+  }
+
+  &__item-title {
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    color: $yellow;
+    font-family: 'MontserratBold';
+  }
+
+  &__item-text {
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #ffffff;
+    margin: 22px 0 0 0;
+
+    &_bold {
+      font-family: 'MontserratBold';
+    }
+  }
+
+  &__notice {
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'MontserratBold';
+    color: #828282;
+    margin: 134px 0 0 0;
+  }
+}

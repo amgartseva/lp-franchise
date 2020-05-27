@@ -1,0 +1,30 @@
+.frame-button {
+  background: $yellow;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  border: none;
+  position: relative;
+  cursor: pointer;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border: 1px solid $yellow;
+    box-sizing: border-box;
+    transition: 300ms all;
+    transform: translateX(-3px) translateY(3px);
+  }
+
+  &:hover {
+    &::after {
+      transform: translate(0);
+    }
+  }
+}

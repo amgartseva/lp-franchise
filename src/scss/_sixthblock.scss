@@ -1,0 +1,74 @@
+.sixthblock {
+  padding: 122px 0 136px 0;
+  background-image: url('../images/map-bg.png');
+  background-size: 90% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &__text {
+    margin: 110px 0 0 0;
+    max-width: 457px;
+  }
+
+  &__grid {
+    display: grid;
+    gap: 20px;
+  }
+
+  &__paragraph {
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+
+    &_bold {
+      font-family: 'MontserratBold';
+    }
+  }
+
+  &__grid-item {
+    border: 2px solid #828282;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 28px 16px 32px 46px;
+  }
+
+  &__grid-subitem {
+    display: flex;
+    align-items: center;
+
+    &:nth-of-type(2) {
+      margin: 40px 0 0 0;
+    }
+  }
+
+  &__subitem-text {
+    font-size: 22px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #333333;
+    font-family: 'MontserratBold';
+    margin: 0 0 0 70px;
+
+    span {
+      font-family: 'MontserratBold';
+      font-size: 36px;
+    }
+
+    &_large {
+      font-size: 24px;
+
+      span {
+        font-size: 42px;
+      }
+    }
+  }
+
+  &__inner {
+    margin: 50px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
